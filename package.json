@@ -12,11 +12,15 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "format": "prettier --write ."
   },
   "dependencies": {
+    "bootstrap": "^5.0.2",
     "gatsby": "^3.9.1",
+    "prettier": "^2.3.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0"
   }
 }
